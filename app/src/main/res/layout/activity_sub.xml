@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/avatar2"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/namjoon"
+        android:layout_gravity="center">
+    </ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/name2"
+        android:text="Kim Namjoon"
+        android:textSize="40dp"
+        android:gravity="center"
+        style="@style/Widget.AppCompat.TextView">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/description2"
+        android:text="Bangtan Boys's Leader"
+        android:textSize="20dp"
+        style="@style/Widget.AppCompat.TextView">
+    </TextView>
+</LinearLayout>
